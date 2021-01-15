@@ -1,0 +1,496 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    font-family: 'Asap', sans-serif;
+}
+
+.header-head {
+    background-color: #00A091;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-head nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-para ul li{
+    list-style: none;
+    padding: 5px 20px;
+    transition: all 0.2s;
+}
+
+.menu-para ul li:first-child{
+    margin-left: 50px;
+    background-color: #0c7c71;
+    font-weight: bold;
+}
+
+.menu-para ul li:first-child:hover{
+    background-color: #0b5f57;
+}
+
+.menu-para ul li:nth-child(2){
+    background-color: #2e887f;   
+}
+
+.menu-para ul li:nth-child(2):hover{
+    background-color: #257069;   
+}
+
+.menu-para ul li:nth-child(3){
+    background-color: #27a79a;   
+}
+
+.menu-para ul li:nth-child(3):hover{
+    background-color: #1f8b81;   
+}
+
+.menu-para ul li a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-head span {
+    margin: 0 10px 0 250px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.header-head input {
+    margin-right: 10px;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.header-head img {
+    height: 20px;
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.key-login:hover {
+    cursor: pointer;
+}
+
+.header-head input::placeholder {
+   text-align: center;
+}
+
+.header-body {
+    background-color: #003641;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    margin-left: 60px;
+}
+
+.locale {
+    margin-left: 50px;
+    height: 20px;
+}
+
+.header-body label {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+#set-locale {
+    color: green;
+    background-color: #003641;
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.menu {
+    margin-left: 350px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 20px 5px;
+    transition: all 0.2s;
+}
+
+.menu ul li + li {
+    margin-left: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.menu ul li a:hover {
+    color: #27a79a;
+    cursor: pointer;
+}
+
+.search {
+    margin-left: 30px;
+    height: 30px;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+.principal {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.principal-txt {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.principal-txt h2 {
+    color: #00A091;
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.principal-txt p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.principal-img img {
+    height: 700px;
+}
+
+.cursos-add {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos-add img {
+    margin-right: 100px;
+}
+
+.cursos-add h2 {
+    color: #00A091;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    margin-left: -500px;
+}
+
+.cursos-add-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cursos-add-content a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #00A091;
+    transition: all 0.2s;
+}
+
+.cursos-add-content a + a {
+    margin-left: 10px;
+}
+
+.cursos-add-content a:hover {
+    background-color: #01b3a1;
+}
+
+.cursos-add-content-content {
+    max-width: 500px;
+}
+
+.cursos-add-content-content h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #00A091;
+    margin-top: 60px;
+}
+
+.cursos-add-content-content p{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #6d7278;
+    line-height: 21px;
+}
+
+.cursos-add-content-content button{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #00A091;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.cursos-add-content-content button:hover {
+    background-color: #01b3a1;
+    cursor: pointer;
+}
+
+.cursos-sem-certificado {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    background-color: #00A091;
+}
+
+.cursos-sem-certificado h2 {
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-align: center;
+    max-width: 300px;
+    margin-right: 150px;
+}
+
+.cursos-sem-certificado-content {
+    max-width: 700px;
+}
+
+.cursos-sem-certificado-content p {
+    font-size: 1.8rem;
+    line-height: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cursos-sem-certificado-content button {
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: #00A091;
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.cursos-sem-certificado-content button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+.cursos-certificado {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.cursos-certificado h2 {
+    color: #00A091;
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-align: center;
+    max-width: 300px;
+    margin-right: 150px;
+}
+
+.cursos-certificado-content {
+    max-width: 700px;
+}
+
+.cursos-certificado-content p {
+    font-size: 1.8rem;
+    line-height: 20px;
+    font-weight: 400;
+    color: #00A091;
+}
+
+.cursos-certificado-content button {
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition: all 0.2s;
+    background-color: #00A091;
+}
+
+.cursos-certificado-content button:hover {
+    cursor: pointer;
+    background-color: #007c70;
+}
+
+.cursos-acessados {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos-acessados h2 {
+    color: #00A091;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-left: -800px;
+}
+
+.cursos-acessados-content {
+    box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.15);
+    max-width: 370px;
+    text-align: center;
+    transition: all 0.2s;
+    margin-left: -800px;
+}
+
+.cursos-acessados-content:hover {
+    cursor: pointer;
+    zoom: 101%;
+}
+
+.cursos-acessados-content img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.cursos-acessados-content h3 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #00A091;
+    margin: 20px 0;
+}
+
+.cursos-acessados-content p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    max-width: 400px;
+    color: #6d7278;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-body {
+    height: 600px;
+    background-color: #003641;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-body div {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 0 0 ;
+    max-width: 350px;
+}
+
+.footer-body div h2{
+    color: #00A091;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.footer-body div p {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-body div p.small {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.footer-body div a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    transition: all 0.2s;
+}
+
+.footer-body div a:hover {
+    color: #ccc;
+}
+
+.footer-body div h2.redes {
+    margin-top: 100px;
+}
+
+.footer-body div p img {
+    height: 20px;
+    margin-top: 10px;
+}
+
+.footer-body div p img:hover {
+    cursor: pointer;
+}
+
+.footer-body div p img + img {
+    margin-left: 10px;
+}
+
+.footer-footer {
+    background-image: url("/img/footer.jpg");
+    height: 50px;
+}
