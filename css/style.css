@@ -494,3 +494,7 @@ body {
     background-image: url("/img/footer.jpg");
     height: 50px;
 }
+
+.footer-footer img {
+    width: 100%;
+}
